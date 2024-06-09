@@ -19,7 +19,7 @@
         "UIBackgroundModes": ["location", "fetch", "remote-notification"],
         "NSLocationWhenInUseUsageDescription": "This app requires access to your location when open.",
         "NSLocationAlwaysAndWhenInUseUsageDescription": "This app requires access to your location even when closed.",
-        "NSLocationAlwaysUsageDescription":  "This app requires access to your location when open.",
+        "NSLocationAlwaysUsageDescription": "This app requires access to your location when open.",
         "deploymentTarget": "14"
       }
     },
@@ -38,7 +38,8 @@
     "plugins": [
       "expo-router",
       [
-        "expo-location", {
+        "expo-location",
+        {
           "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location.",
           "locationAlwaysPermission": "Allow $(PRODUCT_NAME) to use your location.",
           "locationWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
@@ -56,9 +57,7 @@
         "projectId": "1552c161-5c3f-44fc-b708-805757ac81ed"
       }
     },
-    "runtimeVersion": {
-      "policy": "nativeVersion"
-    },
+    "runtimeVersion": "exposdk:51.0.11",
     "updates": {
       "url": "https://u.expo.dev/1552c161-5c3f-44fc-b708-805757ac81ed"
     }
